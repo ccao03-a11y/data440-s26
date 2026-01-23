@@ -1,5 +1,6 @@
+from src.data import make_data
 def main():
-    print("Hello from data440-s26!")
+    print("The data is {make_data[10]}")
 
 
 if __name__ == "__main__":
