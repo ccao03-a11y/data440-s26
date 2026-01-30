@@ -9,7 +9,7 @@ def make_data (n: int = 100, low: int = 0, high: int = 24) -> np.array:
     '''
     Return an nx2 array of random integers between low and high (inclusive)
     '''
-    return np.random.randomint(low = low, high = high, size = (n, 2))
+    return np.random.randint(low = low, high = high, size = (n, 2))
 
 def save_data (data: np.array, filename: str):
     '''
